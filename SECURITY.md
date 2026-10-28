@@ -2,9 +2,9 @@
 
 ## Reporting a Vulnerability
 
-If you discover a security vulnerability in this project, please contact **Pranav Panchal** directly through GitHub instead of using the public issue tracker.
+If you discover a security vulnerability in this project, please contact directly through GitHub instead of using the public issue tracker.
 
-- GitHub: [@pranavpanchal1326](https://github.com/pranavpanchal1326)
+- GitHub:
 
 We take security seriously and will respond promptly to all reports.
 

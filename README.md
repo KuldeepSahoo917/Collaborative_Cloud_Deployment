@@ -33,50 +33,6 @@ Infrastructure: Docker + Docker Compose
 
 text
 
-## 📁 Project Structure
-
-collaborative-whiteboard/
-├── backend/
-│ ├── src/
-│ │ ├── index.js # Server entry point
-│ │ ├── socketHandler.js # WebSocket event handlers
-│ │ ├── roomManager.js # Room state management
-│ │ ├── middleware/
-│ │ │ └── auth.js # JWT authentication
-│ │ ├── models/
-│ │ │ ├── Drawing.js # Drawing schema
-│ │ │ └── User.js # User schema
-│ │ └── utils/
-│ │ └── logger.js # Winston logging
-│ ├── package.json
-│ └── Dockerfile
-├── frontend/
-│ ├── src/
-│ │ ├── components/
-│ │ │ ├── Toolbar.tsx # Tool selection UI
-│ │ │ ├── PropertiesPanel.tsx
-│ │ │ ├── Canvas.tsx # Konva canvas
-│ │ │ └── UserCursors.tsx # Real-time cursors
-│ │ ├── hooks/
-│ │ │ ├── useSocket.ts # Socket.IO hook
-│ │ │ └── useTheme.ts # Theme management
-│ │ ├── types/
-│ │ │ └── index.ts # TypeScript types
-│ │ ├── utils/
-│ │ ├── constants/
-│ │ ├── App.tsx
-│ │ └── main.tsx
-│ ├── package.json
-│ ├── vite.config.ts
-│ └── Dockerfile
-├── nginx/
-│ └── whiteboard.conf # Nginx config
-├── docker-compose.yml
-├── .gitignore
-├── .env.example
-└── README.md
-
-text
 
 ## 🚀 Quick Start
 
@@ -91,7 +47,7 @@ text
 
 1. **Clone the repository**
 
-git clone https://github.com/pranavpanchal1326/collaborative-whiteboard.git
+git clone 
 cd collaborative-whiteboard
 
 text
@@ -269,11 +225,6 @@ Contributions are welcome! Please follow these steps:
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 👨‍💻 Author
-
-**Pranav Panchal**
-- GitHub: [@pranavpanchal1326](https://github.com/pranavpanchal1326)
-- Location: Pimpri-Chinchwad, Maharashtra, India
 
 ## 🙏 Acknowledgments
 

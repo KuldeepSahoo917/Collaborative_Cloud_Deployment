@@ -22,4 +22,4 @@ Thank you for considering contributing to this project by Pranav Panchal!
 
 ## Questions?
 
-Feel free to open an issue or reach out via GitHub: [@pranavpanchal1326](https://github.com/pranavpanchal1326)
+Feel free to open an issue or reach out via GitHub:
