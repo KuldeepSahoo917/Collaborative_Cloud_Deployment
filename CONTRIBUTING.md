@@ -1,6 +1,6 @@
 # Contributing to Collaborative Whiteboard
 
-Thank you for considering contributing to this project by Kuldep Sahoo!
+Thank you for considering contributing to this project by Kuldeep Sahoo!
 
 ## Code Standards
 - Use TypeScript for frontend code
