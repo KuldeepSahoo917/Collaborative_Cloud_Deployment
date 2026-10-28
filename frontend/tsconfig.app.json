@@ -7,7 +7,11 @@
       "lib": ["ES2020", "DOM", "DOM.Iterable"],
       "module": "ESNext",
       "skipLibCheck": true,
+<<<<<<< HEAD
   
+=======
+ 
+>>>>>>> 44b5fdcfd0c554feba63c702f4b0c37ea4d28a8d
       /* Bundler mode */
       "moduleResolution": "bundler",
       "allowImportingTsExtensions": true,
@@ -16,7 +20,11 @@
       "moduleDetection": "force",
       "noEmit": true,
       "jsx": "react-jsx",
+<<<<<<< HEAD
   
+=======
+ 
+>>>>>>> 44b5fdcfd0c554feba63c702f4b0c37ea4d28a8d
       /* Linting */
       "strict": true,
       "noUnusedLocals": false,
@@ -24,5 +32,9 @@
       "noFallthroughCasesInSwitch": true
     },
     "include": ["src"]
+<<<<<<< HEAD
   }
   
+=======
+}
+>>>>>>> 44b5fdcfd0c554feba63c702f4b0c37ea4d28a8d
