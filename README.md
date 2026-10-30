@@ -1,4 +1,4 @@
-# 🎨 Enterprise Collaborative Whiteboard
+# Enterprise Collaborative Whiteboard
 
 > A real-time collaborative whiteboard application built with enterprise-grade architecture, designed for seamless team collaboration with professional UI/UX standards.
 
@@ -8,7 +8,7 @@
 ![Node.js](https://img.shields.io/badge/Node.js-18.x-339933?logo=node.js)
 ![Socket.IO](https://img.shields.io/badge/Socket.IO-4.x-010101?logo=socket.io)
 
-## ✨ Features
+## Features
 
 - **Real-time Collaboration**: Multiple users can draw simultaneously with live cursor tracking
 - **Multi-room Architecture**: Isolated workspaces with secure per-room access control
@@ -23,7 +23,7 @@
 - **Persistent Storage**: MongoDB integration for saving board data
 - **Horizontally Scalable**: Redis adapter for Socket.IO clustering
 
-## 🏗️ Architecture
+## Architecture
 
 Frontend: React + TypeScript + Konva + Vite
 Backend: Node.js + Express + Socket.IO
@@ -34,7 +34,7 @@ Infrastructure: Docker + Docker Compose
 text
 
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 
@@ -48,9 +48,9 @@ text
 1. **Clone the repository**
 
 git clone 
+```
 cd collaborative-whiteboard
-
-text
+```
 
 2. **Set up environment variables**
 
