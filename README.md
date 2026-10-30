@@ -57,43 +57,52 @@ cd collaborative-whiteboard
 cp .env.example .env
 
 Edit .env with your configuration
-text
+
 
 3. **Install dependencies**
 
-Backend
+### Backend
+```
 cd backend
+```
+```
 npm install
-
-Frontend
+```
+### Frontend
+```
 cd ../frontend
+```
+```
 npm install
-
-text
+```
 
 4. **Run locally (development)**
 
 Terminal 1 - Backend
+```
 cd backend
+```
+```
 npm run dev
+```
 
 Terminal 2 - Frontend
+```
 cd frontend
+```
+```
 npm run dev
-
-text
+```
 
 Visit `http://localhost:5173`
 
 ### Docker Deployment
-
+```
 docker-compose up --build
-
-text
-
+```
 Access the app at `http://localhost` (or your configured domain)
 
-## 🔐 Environment Variables
+## Environment Variables
 
 Create a `.env` file in the root directory:
 
@@ -106,8 +115,6 @@ REDIS_URL=redis://localhost:6379
 Frontend
 VITE_API_URL=http://localhost:4000
 VITE_SOCKET_URL=http://localhost:4000
-
-text
 
 ## 🛠️ Tech Stack
 
@@ -127,7 +134,7 @@ text
 | Reverse Proxy | Nginx |
 | Containerization | Docker |
 
-## 📡 API & WebSocket Events
+## API & WebSocket Events
 
 ### Socket.IO Events
 
@@ -143,7 +150,7 @@ text
 - `cursor-update`: Other users' cursor positions
 - `board-state`: Full board sync on join
 
-## 🎨 UI/UX Features
+## UI/UX Features
 
 - **Enterprise Dark Mode**: Professional, minimal aesthetic (default)
 - **Light Mode**: Toggle via theme switcher
@@ -151,7 +158,7 @@ text
 - **Keyboard Shortcuts**: Ctrl+Z (undo), Ctrl+Y (redo)
 - **Accessibility**: ARIA labels, semantic HTML, keyboard navigation
 
-## 🔒 Security
+## Security
 
 - JWT-based authentication for all socket connections
 - Per-room access control
@@ -160,38 +167,50 @@ text
 - Environment variable protection
 - Nginx SSL/TLS termination
 
-## 📈 Scalability
+## Scalability
 
 - **Horizontal Scaling**: Redis adapter allows multiple server instances
 - **Database Indexing**: Optimized MongoDB queries
 - **Nginx Caching**: Static asset caching with gzip compression
 - **Load Balancing**: Ready for reverse proxy load distribution
 
-## 🧪 Testing
+## Testing
 
 Backend tests
+```
 cd backend
+```
+```
 npm test
+```
 
 Frontend tests
+```
 cd frontend
+```
+```
 npm test
+```
 
-text
-
-## 📦 Deployment
+## Deployment
 
 ### Production Build
 
 Frontend
+```
 cd frontend
+```
+```
 npm run build
+```
 
 Backend
+```
 cd backend
+```
+```
 npm run build
-
-text
+```
 
 ### Deployment Options
 
@@ -200,7 +219,7 @@ text
 - **Serverless**: Adapt backend for AWS Lambda + API Gateway
 - **Static Hosting**: Frontend on Vercel/Netlify, backend on dedicated server
 
-## 🗺️ Roadmap
+## Roadmap
 
 - [ ] Export board as PNG/PDF
 - [ ] Version history with rollback
@@ -211,7 +230,7 @@ text
 - [ ] AI-powered drawing suggestions
 - [ ] Permissions system (view/edit roles)
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! Please follow these steps:
 
@@ -221,12 +240,11 @@ Contributions are welcome! Please follow these steps:
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - Inspired by Figma FigJam, Miro, and Microsoft Whiteboard
 - Built with modern web technologies and best practices
