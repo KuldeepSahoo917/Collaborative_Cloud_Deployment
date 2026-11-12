@@ -1,0 +1,21 @@
+{
+  "name": "collaborative-whiteboard",
+  "version": "1.0.0",
+  "description": "> A real-time collaborative whiteboard application built with enterprise-grade architecture, designed for seamless team collaboration with professional UI/UX standards.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KuldeepSahoo917/Collaborative_Cloud_Deployment.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/KuldeepSahoo917/Collaborative_Cloud_Deployment/issues"
+  },
+  "homepage": "https://github.com/KuldeepSahoo917/Collaborative_Cloud_Deployment#readme"
+}
