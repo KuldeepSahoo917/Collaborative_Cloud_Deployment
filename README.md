@@ -116,7 +116,7 @@ Frontend
 VITE_API_URL=http://localhost:4000
 VITE_SOCKET_URL=http://localhost:4000
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 | Layer | Technology |
 |-------|-----------|
